@@ -1,1 +1,5 @@
-# Jarkom_Modul1_Lapres_T17
+# Lapres Modul 1 Jarkom T17 2020
+
+### Oleh:
+- Milenia Ulwan Zafira (0511174000020)
+- Bayu Trianayasa (05311840000038)
