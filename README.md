@@ -25,3 +25,24 @@ clue: "25 50 44 46"
 13.	Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 14.	Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 15.	Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+
+## Jawaban
+1. menggunakan filter:
+```
+http.host == testing.mekanis.me
+```
+[ss no 1]....
+
+lalu Follow TCP Stream
+[ss no 1_2]...
+
+2. menggunakan filter:
+```
+http.request.uri contains tim
+```
+[ss no 2]...
+
+Lalu File -> Export Object -> HTTP, jika terdapat banyak file bisa di cari dibagian search dengan keyword nama file lalu save
+[ss no 2_2]...
+
+3. 
