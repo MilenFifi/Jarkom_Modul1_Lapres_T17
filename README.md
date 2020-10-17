@@ -69,7 +69,25 @@ http.host=="aku.pengen.pw"
 Masukan Usname dan Pass untuk masuk ke web tsb. isi soal tersembunyi ttg pengkabelan ini
 ![5_2](img/no%205_2.png/)
 
-6-8. Nay, lom bisa :D
+6. Gunakan filter :
+```
+ftp-data
+```
+setelah didapat info STORING Answer.zip
+![6](img/no%206.png/)
+Follow TCP Stream dan Show RAW dan save as "Answer.zip"
+![6_1](img/no%206_1.png/)
+terdapat file open.pdf, namun perlu password. cari password dengan filter :
+```
+ftp-data.command contains .txt
+```
+![6_2](img/no%206_2.png/)
+Lalu Follow TCP Stream untuk dapat password dari open.pdf
+![6_3](img/no%206_3.png/)
+Lalu didapat isi pdf sebagai berikut
+![6_4](img/no%206_4.png/)
+
+7&8. Nay, lom bisa :D
 
 9. Gunakan filter :
 ```
@@ -101,7 +119,7 @@ Buat user bila belum ada
 ![11_1](img/no%2011_1.png/)
 Connect Fillzilla Client dengan mengisi host 127.0.0.1, user dan pass yang sudah dibuat tadi dan isi port 21 lalu Quickconnect
 ![11_2](img/no%2011_2.png/)
-Setelah itu maka Wireshark akan mendeteksi kegiiatan yang ada di port 21, dengan Capture filter di Loopback :
+Setelah itu maka Wireshark akan mendeteksi kegiatan yang ada di port 21, dengan Capture filter di Loopback :
 ```
 port 21
 ```
