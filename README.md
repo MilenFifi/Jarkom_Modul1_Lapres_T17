@@ -99,7 +99,17 @@ dinamai dengan "Yes.pdf"
 Lalu buka tanpa password
 ![7_3](img/no%207_3.png/)
 
-<b>8.</b> Nay, lom bisa :D
+<b>8.</b> Gunakan filter :
+```
+ftp contains "Microsoft"
+```
+akan didapat IP Address dari Microsoft
+![8](img/no%208.png/)
+Untuk mencari objek yang di didownload dengan filter :
+```
+ftp.request.command contains "RETR" && ip.dst==198.246.117.106
+```
+![8_1](img/no%208_1.png/)
 
 <b>9.</b> Gunakan filter :
 ```
