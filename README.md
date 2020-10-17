@@ -26,7 +26,7 @@ clue: "25 50 44 46"
 14.	Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 15.	Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 
-## Jawaban
+## Jawaban A
 1. menggunakan filter:
 ```
 http.host == testing.mekanis.me
@@ -93,3 +93,30 @@ lalu TCP Stream, find HEX dengan "25 55 40 46"
 ![10_1](img/no%2010_1.png/)
 Lalu TCP Stream lagi dan View as RAW
 ![10](img/no%2010.png/)
+
+## Jawaban B
+11. Belum bisa juga hehe :D
+
+12. Gunakan Capture Filter :
+```
+tcp src port 80
+```
+![12](img/no%2012.png/)
+
+13. Gunakan Capture Filter :
+```
+tcp dst port 443
+```
+![13](img/no%2013.png/)
+
+14. Gunakan ip config di cmd untuk cari ip pc, lalu gunakan filter :
+```
+ip scr 192.168.100.219
+```
+![14](img/no%2014.png/)
+
+15. Gunakann Capture Filter :
+```
+dst host monta.if.its.ac.id
+```
+![15](img/no%2015.png/)
