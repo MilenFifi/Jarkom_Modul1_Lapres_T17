@@ -31,18 +31,35 @@ clue: "25 50 44 46"
 ```
 http.host == testing.mekanis.me
 ```
-[ss no 1]....
+![ss no 1](./img/no 1.png/)
 
 lalu Follow TCP Stream <br/>
-[ss no 1_2]...
+![ss no 1_2](./img/no 1_2.png/)
 
 2. menggunakan filter:
 ```
 http.request.uri contains tim
 ```
-[ss no 2]...
+![ss no 2](./img/no 2.png/)
 
 Lalu File -> Export Object -> HTTP, jika terdapat banyak file bisa di cari dibagian search dengan keyword nama file lalu save
-[ss no 2_2]...
+![ss no 2_2](./img/no 2_2.png/)
+![ss no 2_2](./img/no 2_3.png/)
+![foto download](./img/Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg/)
 
-3. 
+3. Gunakan filter:
+```
+http.host=="ppid.dpr.go.id" && http.request.uri == POST
+```
+![ss no 3]...
+
+4. Gunakan filter :
+```
+http.authbasic
+```
+![ss no 4_1]...
+Lalu didapatkan 2 web dengan auth basic
+![ss no 4_2]...
+![ss no 4_3]...
+
+5. 
