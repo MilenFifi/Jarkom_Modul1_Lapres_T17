@@ -87,7 +87,19 @@ Lalu Follow TCP Stream untuk dapat password dari open.pdf
 Lalu didapat isi pdf sebagai berikut
 ![6_4](img/no%206_4.png/)
 
-7&8. Nay, lom bisa :D
+7. Gunakan Filter :
+```
+ftp.data contains "Yas.pdf"
+```
+![7](img/no%207.png/)
+Lalu TCP Stream dan save as RAW
+![7_1](img/no%207_1.png/)
+dinamai dengan "Yes.pdf"
+![7_2](img/no%207_2.png/)
+Lalu buka tanpa password
+![7_3](img/no%207_3.png/)
+
+8. Nay, lom bisa :D
 
 9. Gunakan filter :
 ```
