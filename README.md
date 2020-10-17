@@ -41,7 +41,6 @@ lalu Follow TCP Stream <br/>
 http.request.uri contains tim
 ```
 ![2](img/no%202.png/)
-
 Lalu File -> Export Object -> HTTP, jika terdapat banyak file bisa di cari dibagian search dengan keyword nama file lalu save
 ![2_2](img/no%202_2.png/)
 ![2_3](img/no%202_3.png/)
@@ -62,4 +61,23 @@ Lalu didapatkan 2 web dengan auth basic
 ![4_2](img/no%204_2.png/)
 ![4_3](img/no%204_3.png/)
 
-5. 
+5. Gunakan filter untuk mendapat Credential:
+```
+http.host=="aku.pengen.pw"
+```
+![5](img/no%205.png/)
+Masukan Usname dan Pass untuk masuk ke web tsb. isi soal tersembunyi ttg pengkabelan ini
+![5_2](img/no%205_2.png/)
+
+6-8. Nay, lom bisa :D
+
+9. Gunakan filter :
+```
+ftp
+```
+![9_1](img/no%209_1.png/)
+atau
+```
+ftp.request.command == USER || ftp.request.command == PASS
+```
+![9_2](img/no%209_2.png/)
