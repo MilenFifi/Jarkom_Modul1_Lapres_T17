@@ -75,9 +75,13 @@ Masukan Usname dan Pass untuk masuk ke web tsb. isi soal tersembunyi ttg pengkab
 ```
 ftp
 ```
-![9_1](img/no%209_1.png/)
+![9_2](img/no%209_2.png/)
 atau
 ```
 ftp.request.command == USER || ftp.request.command == PASS
 ```
-![9_2](img/no%209_2.png/)
+![9_1](img/no%209_1.png/)
+lalu dibisa Follow TCP Stream
+![9](img/no%209.png/)
+
+10. 
