@@ -27,7 +27,7 @@ clue: "25 50 44 46"
 15.	Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 
 ## Jawaban A
-1. menggunakan filter:
+<b>1.</b> menggunakan filter:
 ```
 http.host == testing.mekanis.me
 ```
@@ -36,7 +36,7 @@ http.host == testing.mekanis.me
 lalu Follow TCP Stream <br/>
 ![1_2](img/no%201_2.png/)
 
-2. menggunakan filter:
+<b>2.</b> menggunakan filter:
 ```
 http.request.uri contains tim
 ```
@@ -46,13 +46,13 @@ Lalu File -> Export Object -> HTTP, jika terdapat banyak file bisa di cari dibag
 ![2_3](img/no%202_3.png/)
 ![foto](img/Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg/)
 
-3. Gunakan filter:
+<b>3.</b> Gunakan filter:
 ```
 http.host=="ppid.dpr.go.id" && http.request.uri == POST
 ```
 ![3](img/no%203.png/)
 
-4. Gunakan filter :
+<b>4.</b> Gunakan filter :
 ```
 http.authbasic
 ```
@@ -61,7 +61,7 @@ Lalu didapatkan 2 web dengan auth basic
 ![4_2](img/no%204_2.png/)
 ![4_3](img/no%204_3.png/)
 
-5. Gunakan filter untuk mendapat Credential:
+<b>5.</b> Gunakan filter untuk mendapat Credential:
 ```
 http.host=="aku.pengen.pw"
 ```
@@ -69,7 +69,7 @@ http.host=="aku.pengen.pw"
 Masukan Usname dan Pass untuk masuk ke web tsb. isi soal tersembunyi ttg pengkabelan ini
 ![5_2](img/no%205_2.png/)
 
-6. Gunakan filter :
+<b>6.</b> Gunakan filter :
 ```
 ftp-data
 ```
@@ -87,7 +87,7 @@ Lalu Follow TCP Stream untuk dapat password dari open.pdf
 Lalu didapat isi pdf sebagai berikut
 ![6_4](img/no%206_4.png/)
 
-7. Gunakan Filter :
+<b>7.</b> Gunakan Filter :
 ```
 ftp.data contains "Yas.pdf"
 ```
@@ -99,9 +99,9 @@ dinamai dengan "Yes.pdf"
 Lalu buka tanpa password
 ![7_3](img/no%207_3.png/)
 
-8. Nay, lom bisa :D
+<b>8.</b> Nay, lom bisa :D
 
-9. Gunakan filter :
+<b>9.</b> Gunakan filter :
 ```
 ftp
 ```
@@ -114,7 +114,7 @@ ftp.request.command == USER || ftp.request.command == PASS
 lalu dibisa Follow TCP Stream untuk lebih pasti 
 ![9](img/no%209.png/)
 
-10. Gunakan Filter :
+<b>10.</b> Gunakan Filter :
 ```
 http contains ".pdf"
 ```
@@ -125,7 +125,7 @@ Lalu TCP Stream lagi dan View as RAW
 ![10](img/no%2010.png/)
 
 ## Jawaban B
-11.Agar bisa ada isinya wireshark, Start Filezilla Server XAMPP
+<b>11.</b> Agar bisa ada isinya wireshark, Start Filezilla Server XAMPP
 ![11](img/no%2011.png/)
 Buat user bila belum ada
 ![11_1](img/no%2011_1.png/)
@@ -137,25 +137,25 @@ port 21
 ```
 ![11_3](img/no%2011_3.png/)
 
-12. Gunakan Capture Filter :
+<b>12.</b> Gunakan Capture Filter :
 ```
 tcp src port 80
 ```
 ![12](img/no%2012.png/)
 
-13. Gunakan Capture Filter :
+<b>13.</b> Gunakan Capture Filter :
 ```
 tcp dst port 443
 ```
 ![13](img/no%2013.png/)
 
-14. Gunakan ip config di cmd untuk cari ip pc, lalu gunakan filter :
+<b>14.</b> Gunakan ip config di cmd untuk cari ip pc, lalu gunakan filter :
 ```
 ip scr 192.168.100.219
 ```
 ![14](img/no%2014.png/)
 
-15. Gunakann Capture Filter :
+<b>15.</b> Gunakann Capture Filter :
 ```
 dst host monta.if.its.ac.id
 ```
