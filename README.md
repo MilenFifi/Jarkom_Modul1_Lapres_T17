@@ -88,6 +88,8 @@ lalu dibisa Follow TCP Stream untuk lebih pasti
 ```
 http contains ".pdf"
 ```
-![10](img/no%2010.png/)
+![10_2](img/no%2010_2.png/)
 lalu TCP Stream, find HEX dengan "25 55 40 46"
 ![10_1](img/no%2010_1.png/)
+Lalu TCP Stream lagi dan View as RAW
+![10](img/no%2010.png/)
