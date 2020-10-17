@@ -81,7 +81,13 @@ atau
 ftp.request.command == USER || ftp.request.command == PASS
 ```
 ![9_1](img/no%209_1.png/)
-lalu dibisa Follow TCP Stream
+lalu dibisa Follow TCP Stream untuk lebih pasti 
 ![9](img/no%209.png/)
 
-10. 
+10. Gunakan Filter :
+```
+http contains ".pdf"
+```
+![10](img/no%2010.png/)
+lalu TCP Stream, find HEX dengan "25 55 40 46"
+![10_1](img/no%2010_1.png/)
