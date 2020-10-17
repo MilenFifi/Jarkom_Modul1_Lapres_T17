@@ -95,7 +95,17 @@ Lalu TCP Stream lagi dan View as RAW
 ![10](img/no%2010.png/)
 
 ## Jawaban B
-11. Belum bisa juga hehe :D
+11.Agar bisa ada isinya wireshark, Start Filezilla Server XAMPP
+![11](img/no%2011.png/)
+Buat user bila belum ada
+![11_1](img/no%2011_1.png/)
+Connect Fillzilla Client dengan mengisi host 127.0.0.1, user dan pass yang sudah dibuat tadi dan isi port 21 lalu Quickconnect
+![11_2](img/no%2011_2.png/)
+Setelah itu maka Wireshark akan mendeteksi kegiiatan yang ada di port 21, dengan Capture filter di Loopback :
+```
+port 21
+```
+![11_3](img/no%2011_3.png/)
 
 12. Gunakan Capture Filter :
 ```
